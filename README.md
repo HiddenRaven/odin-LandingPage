@@ -1,2 +1,2 @@
 # odin-LandingPage
-Utilize acquired skills to create a basic website.
+Utilize acquired knowledge to create a basic website.
