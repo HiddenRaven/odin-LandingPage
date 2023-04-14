@@ -1,32 +1,30 @@
 body {
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 
 .section1 {
-    background: #1F2937;
+    background: #1F2937; 
     padding: 0 150px;
-    display: flex;
-    flex-direction: column;
 }
 
-h1, h2, button {
+.main_header, .logo, button {
     color: #F9FAF8;
 }
 
-h1 {
+.main_header {
     font-size: 48px;
 }
 
-h2 {
+.logo {
     font-size: 24px;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 0 50px;
+    padding: 20px 0;
+    background-color: pink;
 }
 
 a {
@@ -37,7 +35,6 @@ ul {
     list-style: none;
     display: flex;
     margin: 0;
-    padding: 24px;
     gap: 8px;
 }
 
@@ -45,11 +42,15 @@ ul {
     display: flex;
     /*flex-grow: 1;*/
     justify-content: space-between;
+    margin: 0;
+    gap: 50px;
+    background-color: red;
 }
 
 .left {
     display: flex;
     flex-direction: column;
+    background-color: purple;
   
 }
 
@@ -73,8 +74,8 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    /*width: 400px;
-    height: 200px;*/
+    width: 400px;
+    height: 200px;
     color: #E5E7EB;
     font-size: 12px;
     flex-grow: 1;
