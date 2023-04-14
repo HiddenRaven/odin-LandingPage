@@ -126,3 +126,35 @@ button {
     display: flex;
     flex-direction: column; 
 }
+
+.section4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.blue_box {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 48px;
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+.call_text {
+    font-weight: 700;
+    
+}
+
+.sub_text {
+    font-weight: 100;
+}
+
+.button2 {
+    border: 2px solid #E5E7EB;
+    border-radius: 4px;
+    padding: 6px 24px;
+} 
