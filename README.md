@@ -1,2 +1,2 @@
 # odin-LandingPage
-Utilize acquired knowledge to create a basic website.
+Utilize flexbox and classes to create containers in order to style a basic webpage.
